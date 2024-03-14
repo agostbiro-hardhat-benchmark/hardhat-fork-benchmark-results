@@ -26,12 +26,12 @@ window.BENCHMARK_DATA = {
         "tool": "customSmallerIsBetter",
         "benches": [
           {
-            "name": "seaport_4f4e7c20",
+            "name": "All Scenarios",
             "value": 17115.564706,
             "unit": "ms"
           },
           {
-            "name": "All Scenarios",
+            "name": "seaport_4f4e7c20",
             "value": 17115.564706,
             "unit": "ms"
           }
