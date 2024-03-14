@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710441152006,
+  "lastUpdate": 1710441516202,
   "repoUrl": "https://github.com/agostbiro/hardhat-fork",
   "entries": {
     "Benchmark": [
@@ -67,6 +67,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "All Scenarios",
             "value": 17630.946286,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "distinct": true,
+          "id": "0f4067bff474fa2f8c1b91c9fdb8f9e8974de59a",
+          "message": "Remove debug logs",
+          "timestamp": "2024-03-14T19:36:00+01:00",
+          "tree_id": "9c671c9a0523054783f718c1dd26e31672bb7c39",
+          "url": "https://github.com/agostbiro/hardhat-fork/commit/0f4067bff474fa2f8c1b91c9fdb8f9e8974de59a"
+        },
+        "date": 1710441515116,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 17466.137581000003,
+            "unit": "ms"
+          },
+          {
+            "name": "All Scenarios",
+            "value": 17466.137581000003,
             "unit": "ms"
           }
         ]
