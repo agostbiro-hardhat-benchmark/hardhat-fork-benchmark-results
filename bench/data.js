@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710503559554,
+  "lastUpdate": 1710508139020,
   "repoUrl": "https://github.com/agostbiro/hardhat-fork",
   "entries": {
     "Benchmark": [
@@ -165,6 +165,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "All Scenarios",
             "value": 3139645.5459509995,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17321d1fcb631ac215896d054ce0f398fb8f58d3",
+          "message": "Update index.js",
+          "timestamp": "2024-03-15T13:02:58+01:00",
+          "tree_id": "0ff013df9736c52065e9498113aa8cecaf40a915",
+          "url": "https://github.com/agostbiro/hardhat-fork/commit/17321d1fcb631ac215896d054ce0f398fb8f58d3"
+        },
+        "date": 1710508137939,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 833835.597028,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_8b12f83a",
+            "value": 98657.707207,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 73276.05226799997,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 3507.033905999968,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 18844.372603000025,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 2748100.757569,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 53642.24436199991,
+            "unit": "ms"
+          },
+          {
+            "name": "All Scenarios",
+            "value": 3829863.764943,
             "unit": "ms"
           }
         ]
